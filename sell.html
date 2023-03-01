@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ECOCLEAN</title>
+
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap" rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/f79985131f.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+    <section id="title">
+
+
+        <div class="container-fluid">
+            <header class="header" style="width: 96%; ">
+                <!-- for logo -->
+                <div class="left">
+                    <a class="navbar-brand" href="index.html"><img class="logo" src="images/ECO CLEAN.png" alt="">
+                    </a>
+                </div>
+
+                <!-- for nav bar -->
+                <div class="mid">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+
+                        <div class="navlogo">
+
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarTogglerDemo02">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+
+
+
+                        <div class="collapse navbar-collapse demo" id="navbarTogglerDemo02">
+
+                            <ul class="navbar-nav  ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link nav-a" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-a" href="how-to-use.html ">Locate Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-a" href="sell.html">Request</a>
+                                </li>
+                                <li class="nav-item nav-a">
+                                    <a class="nav-link nav-a" href="contact.html">Get in Touch</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link nav-a" href="#cta">Forum</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </nav>
+                </div>
+                <div class="right">
+                </div>
+
+
+            </header>
+        </div>
+    </section>
+
+    <div class="register-form">
+        <div class="register-left">
+            <img class="photo" src="images/17454.jpg" alt="">
+            </div>
+            <div class="register-right">
+                <form class="r-form" action="noaction.js" method="post" name="google-sheet">
+                    <h2>Hello there!</h2>
+                    <h1 class="register-text">
+                        Request for Your Organization
+                    </h1>
+                    <div class="credential">
+                        <input type="username" name="Organization_Name" placeholder="Organization">
+                        <input type="text" name="Address" placeholder="Address">
+                        <input type="email" name="Email" placeholder="Email">
+                        <input type="text" name="Number" placeholder="Contact no.">
+                        
+                    </div>
+                    <div class="submit-buttton">
+                        <button type="submit" name="submit" class="btn">Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+
+            <!-- Google Sheet -->
+
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbxEddsfEjWrVqK79dJXkayywDMignK5oddFcYCvDBE026W-gWxLEBWt8XrjLWncrfU0/exec'
+                const form = document.forms['google-sheet']
+
+                form.addEventListener('submit', e => {
+                    e.preventDefault()
+                    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                        .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                        .catch(error => console.error('Error!', error.message))
+                })
+            </script>
+
+</body>
+
+</html>

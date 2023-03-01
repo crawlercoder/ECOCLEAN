@@ -1,0 +1,717 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  /* background-color:#eaf3fa; */
+
+}
+/* body #title{
+  background-color: #eaf3fa;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+/* p {
+  color: white;
+} */
+
+/* header */
+
+.left {
+  position: absolute;
+  left: -9rem;
+  top: -2rem;
+  display: inline-block;
+  color: white;
+  /* border: 2px solid hotpink; */
+}
+
+
+/* .left img {
+
+  width: 200px;
+  height: 200px;
+} */
+
+.left div {
+  text-align: center;
+  color: black;
+  /* filter: invert(300%); */
+}
+
+
+
+.mid {
+  width: 60%;
+  margin: 1rem 17rem;
+  display: block;
+  /* border: 2px solid hotpink; */
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  right: -9rem;
+  /* top: -0.5rem; */
+  display: inline-block;
+  margin: 1rem 2rem;
+  /* border: 2px solid red; */
+}
+
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 2;
+  /* background-color: #8f8f8f; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.navlogo{
+  text-align: right;
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+}
+
+/* Containers */
+
+
+
+.contact {
+  padding: 1% 7%;
+}
+
+/* Navigation Bar */
+
+/* .navbar {
+  padding: 0 0 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 7rem;
+}
+
+.navbar-brand {
+  height: 10px;
+  width: 10px;
+  margin: 5px;
+} */
+
+.nav-item {
+  text-align: center;
+  padding: 0 0px;
+  width: 8rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.navbar {
+  display: inline-block;
+
+}
+
+/* .navbar li {
+  display: inline-block;
+  font-size: 25px;
+} */
+
+.navbar li a {
+  /* color: white; */
+  text-decoration: none;
+  padding: 34px 25px;
+}
+
+.nav-link:hover {
+  color: #08a88a;
+}
+
+/* Buttons */
+
+
+
+
+
+/* Title Section */
+/* .widthc {
+  width: 100%;
+  background-color: blueviolet;
+} */
+.top {
+  color: #24292e;
+}
+
+#title {
+
+  color: #F3F3F3;
+  text-align: left;
+  /* background: url(../images/6848277.jpg); */
+  /* background: url(../images/6881999.jpg); */
+  background: url(../images/Volunteers\ cleaning\ up\ garbage\ in\ city\ park\ .jpg);
+  /* background: url(../images/5836.jpg); */
+  /* background: url(../images/8747.jpg); */
+  /* background: url(https://img.freepik.com/free-vector/student-with-laptop-studying-online-course_74855-5293.jpg?w=1060&t=st=1666342946~exp=1666343546~hmac=42094826165b676fbba3d7830d0198c172d0ba873caf1506b37d1510a119de87); */
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center 135px;
+  /* background-size:contain; */
+  /* background-attachment: fixed; */
+  /* padding-bottom: 20px; */
+}
+
+/* #title::before::-webkit-scrollbar{
+  left:-660px
+} */
+
+
+.header a {
+  padding: 10px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+#title .container-fluid {
+  padding: 1% 3% 7% 10%;
+}
+
+
+
+/* Title Image */
+
+.title-image {
+  width: 90%;
+  position: relative;
+}
+
+/* CTA Section */
+
+#cta {
+  /* border: 2px solid hotpink; */
+  color: black;
+  text-align: left;
+  background: transparent;
+  background: url(../images/Myprojectdown.png);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position: 90% center;
+  /* background-attachment: fixed; */
+  padding: 1% 0;
+  position: relative;
+margin-top: -5%;
+  overflow: hidden;
+}
+
+#cta:before{
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 140%;
+  top: -78%;
+  left: -18%;
+  z-index: -2;
+  background: #F3F3F3;
+  transform: rotate(-14deg);
+
+}
+
+.cta-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 2;
+  /* background-color: #8f8f8f; */
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+  padding: 2% 0;
+}
+.need {
+  padding: 7% 7% 4% 7%;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+/*NEW CHANGES*/
+
+.logo {
+
+  height: 290PX;
+  width: 290PX;
+  margin: -1rem -2rem;
+}
+
+.row {
+  text-decoration: outline white;
+  color: white;
+  width: 100%;
+  padding: 2rem;
+  margin-bottom: 15%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.col-lg-12 {
+  margin-top: 60px;
+}
+
+a {
+  color: white;
+}
+
+
+
+
+hr {
+  text-align: center;
+  margin: 2% auto;
+  border-top: 10px dotted gray;
+  width: 3%;
+  font-size: 1rem;
+  
+}
+
+/* Footer Section */
+
+#footer {
+  margin-top: 3%;
+  background-color: #fff;
+}
+
+.copyright {
+  font-size: smaller;
+  color: #28231d;
+}
+
+/*  footer icons */
+:root {
+  --link-size: 64px;
+  --trans-property: all 0.3s ease;
+}
+
+.social-icons {
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icon {
+  background: transparent;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  width: var(--link-size);
+  height: var(--link-size);
+  margin: 8px;
+  border-radius: 50%;
+  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12); */
+  text-decoration: none;
+  transition: var(--trans-property);
+}
+
+.social-icon i {
+  margin: auto;
+  font-size: 30px;
+  color: black;
+  z-index: 1;
+  transition: var(--trans-property);
+}
+
+.social-icon:after {
+  content: "";
+  width: var(--link-size);
+  height: var(--link-size);
+  position: absolute;
+  transform: translate(0, var(--link-size));
+  border-radius: 50%;
+  transition: var(--trans-property);
+}
+
+.social-icon.twitter:after {
+  background-color: #1da1f2;
+}
+
+.social-icon.github:after {
+  background-color: #24292e;
+}
+
+.social-icon.discord:after {
+  background-color: #5851db;
+}
+
+.social-icon.instagram:after {
+  background-color: #ea4c89;
+
+}
+
+.social-icon.facebook:after {
+  background-color: #1769ff;
+}
+
+.social-icon:hover {
+  text-decoration: none;
+  transform: translateY(-4px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.16);
+}
+
+.social-icon:hover i {
+  color: #fff;
+}
+
+.social-icon:hover:after {
+  transform: translate(0) scale(1.2);
+}
+
+.new {
+  margin-bottom: 19px;
+  margin-top: -34px;
+}
+
+
+
+#feature{
+  /* border: 2px solid hotpink; */
+  z-index: -100;
+  position: relative;
+  z-index: 2;
+ 
+  /* margin-top: 4.6%; */
+}
+
+#feature h3{
+  font-size: 1.3rem;
+  display: inline-block;
+}
+
+.feature_list {
+  /* margin-top: 0%; */
+  padding: 4rem 10%;
+  /* padding-bottom: 10%; */
+}
+.start{
+  display: inline-block;
+  padding: 1%;
+  margin: 1rem;
+  left: 0%;
+  /* text-align: center; */
+  width: 30%;
+  border: 2px solid #28231d;
+  border-radius: 50%;
+}
+
+.icon{
+  
+    margin: 3rem 4%;
+    
+    /* font-size: 1rem; */
+}
+
+.icon {
+  /* background: transparent; */
+  border-radius: 50px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  /* font-size: 15px; */
+  position: relative;
+  /* width: 130px; */
+  /* overflow-y: clip; */
+  /* overflow-clip-margin: 1000px; */
+  outline: none;
+  /* cursor: pointer; */
+}
+
+.icon::before {
+  /* border: 2px solid #2C3539; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 130%;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  transition: all .5s;
+}
+.nearby:before{
+  content: 'Nearby';
+}
+.earn:before{
+  content: 'Earn';
+}
+.community:before{
+  content: 'Community';
+}
+.verified:before{
+  content: 'Recycle';
+}
+.save:before{
+  content: '3R';
+}
+.love:before{
+  content: 'Trust';
+}
+
+/* .icon::after {
+ border: 2px solid #2C3539;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 170%;
+  left: -20px;
+  width: 150%;
+  height: 80%;
+  transition: all .2s;
+  font-size: 12px;
+  color: #495464;
+
+}
+
+
+.nearby:after{
+  content: 'Trade nearly new goods near your campus';
+}
+.earn:after{
+  content: 'Sell things not in use and earn money!';
+}
+.community:after{
+  content: 'Build your own community';
+}
+.verified:after{
+  content: 'Verified Users Only';
+}
+.save:after{
+  content: 'Buy preowned products and save money!';
+}
+.love:after{
+  content: 'Made With Trust';
+}
+.icon:hover::after{
+top: 160%;
+} */
+
+
+.icon_list {
+  /* margin-top: 0%; */
+  padding: 1rem 7%;
+}
+
+#featured {
+  margin-top: -9.6%;
+  /* border: 2px solid hotpink; */
+  position: relative;
+  /* z-index: -3; */
+  /* transform: rotate(10d  eg); */
+  overflow: hidden;
+
+}
+#featured h2 {
+  margin-top: 13.6%;
+}
+
+#featured:before {
+
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 140%;
+  top: 40%;
+  left: -7%;
+  z-index: -2;
+  background: #F3F3F3;
+  /* background: #DFF6FF; */
+}
+
+#featured:before {
+  transform: rotate( -14deg);
+}
+
+.sub-heading h2 {
+  font-size: 2rem;
+  display: inline-block;
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  margin: 3%;
+  margin-bottom: 0;
+  /* z-index: 2; */
+  /* -webkit-text-stroke:1px #28231d;
+  color: transparent;  */
+}
+.icons {
+  /* background: transparent; */
+  /* border: 2px solid #2C3539; */
+  /* margin: 2% 7px;
+  padding: 10px 2px; */
+  /* border-radius: 50px; */
+  /* border: 0; */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  /* font-size: 15px; */
+  position: relative;
+  /* width: 130px; */
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+}
+
+.icons {
+  margin: 2rem 20px;
+}
+
+#featured .col-lg-12 {
+  margin-top: 0px;
+}
+
+.icons::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: all .3s;
+  content: '';
+}
+
+.icons::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -120px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  transition: all .2s;
+  font-size: 12px;
+  color: #495464;
+
+}
+
+.icons:hover::after {
+  bottom: -60px;
+}
+
+.books::after {
+  content: 'books';
+}
+
+.disc::after {
+  content: 'community';
+}
+
+.screen::after {
+  content: 'electronics';
+}
+
+.vehicle::after {
+  content: 'vehicle';
+}
+
+.music::after {
+  content: 'music';
+}
+
+.luggage::after {
+  content: 'luggage';
+}
+
+.stationary::after {
+  content: 'stationary';
+}
+
+.speaker::after {
+  content: 'speakers';
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+#htu {
+  position: relative;
+  /* border: yellowgreen solid 2px; */
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+
+/* .scroll-nav{ */
+  /* background-color: #08a88a; */
+  /* z-index: 100; */
+/* } */
+
+.scroll-nav nav {
+position: sticky;
+top: 0;
+/* background-color: #eef0f1; */
+background-color: whitesmoke;
+z-index: 100;
+border-radius:0 0 20px 20px;
+}
+
+/* .container{ */
+  
+  /* background: transparent; */
+/* } */
+
+.scroll-nav nav .container {
+width: 100%;
+z-index: 100;
+max-width: 1100px;
+margin: 0 auto;
+text-align: center;
+
+padding: 10px 10%;
+}
+.scroll-nav nav .container ul li {
+display: inline-block;
+z-index: 100;
+
+
+border-radius:5px;
+}
+.scroll-nav nav .container ul li a {
+display: inline-block;
+text-decoration: none;
+z-index: 100;
+padding: 15px 30px;
+color: rgba(0,0,0,.5);
+}
+.scroll-nav nav .container ul li.active {
+background-color: #495464;
+border-radius:30px;
+z-index: 100;
+transition: 0.3s;
+}
+.scroll-nav nav .container ul li.active a {
+color: #ffffff;
+z-index: 100;
+}
